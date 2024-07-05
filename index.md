@@ -1,4 +1,11 @@
-
++++
+title =  "Write a Script to add a Submodule to Repo"
+author = "Justin Napolitano"
+tags = ["scripts","bash","git"]
+images = ["images/feature-image.png"]
+date = "2024-07-05"
+categories = ["Tutorials"]
++++
 # Add Submodule Script
 
 This script is designed to add a submodule to a Git super project by passing only the link to the submodule. It will create a new branch with the repository name and add the submodule to the specified path.
