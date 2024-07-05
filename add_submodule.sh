@@ -35,4 +35,15 @@ git checkout -b "$repo_name"
 # Add the submodule
 git submodule add "$submodule_link" "$location/$repo_name"
 
+# Commit the changes
+git add .
+git commit -m "Add submodule $repo_name"
+
+# Push the new branch to GitHub
+git push -u origin "$repo_name"
+
+# Create a pull request using GitHub CLI
+gh pr create --title "Add submodule $repo_name" --body "This PR adds the submodule $repo_name to $location" --base main --head "$repo_name"
+
 echo "Submodule $repo_name added successfully to $location/$repo_name"
+echo "Branch $repo_name pushed to GitHub and pull request created."
