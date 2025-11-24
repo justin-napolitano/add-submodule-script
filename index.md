@@ -19,6 +19,12 @@ seoSecondaryKeywords:
   - bash automation
   - git pull request
 seoOptimized: true
+topicFamily: automation
+topicFamilyConfidence: 1
+topicFamilyNotes: >-
+  The blog post details a Bash script that automates Git submodule addition, branch creation,
+  commit, push, and pull request creation via GitHub CLI, aligning perfectly with the Automation
+  family focused on automating git workflows and scripting.
 ---
 
 # Write a Script to Add a Submodule to Repo
@@ -88,3 +94,4 @@ This adds the `repo` submodule inside `content/posts/repo`, creates a branch nam
 This script encapsulates a common Git submodule workflow into a single executable command, reducing manual steps and potential errors. It leverages the GitHub CLI to integrate pull request creation directly from the command line, streamlining collaboration and code review processes.
 
 Future improvements could focus on error handling, customization, and supporting batch operations.
+
