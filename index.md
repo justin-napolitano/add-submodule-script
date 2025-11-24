@@ -1,12 +1,25 @@
 ---
-slug: "github-add-submodule-script"
-title: "add-submodule-script"
-repo: "justin-napolitano/add-submodule-script"
-githubUrl: "https://github.com/justin-napolitano/add-submodule-script"
-generatedAt: "2025-11-23T08:34:12.625328Z"
-source: "github-auto"
+slug: github-add-submodule-script
+title: Bash Script to Automate GitHub Submodule Addition and PR Creation
+repo: justin-napolitano/add-submodule-script
+githubUrl: https://github.com/justin-napolitano/add-submodule-script
+generatedAt: '2025-11-23T08:34:12.625328Z'
+source: github-auto
+summary: >-
+  Bash script automates adding a Git submodule, creating a branch, committing changes, pushing, and
+  opening a GitHub pull request.
+tags:
+  - git
+  - bash-script
+  - github-cli
+  - submodule
+seoPrimaryKeyword: git submodule script
+seoSecondaryKeywords:
+  - github cli
+  - bash automation
+  - git pull request
+seoOptimized: true
 ---
-
 
 # Write a Script to Add a Submodule to Repo
 
