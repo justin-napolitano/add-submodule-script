@@ -7,18 +7,18 @@ githubUrl: https://github.com/justin-napolitano/add-submodule-script
 generatedAt: '2025-11-24T21:33:53.198Z'
 source: github-auto
 summary: >-
-  A Bash script to automate adding Git submodules, handling branch creation,
-  commits, and pull requests via GitHub CLI.
+  A Bash script to automate adding Git submodules, including branch creation and
+  pull request generation using GitHub CLI.
 tags:
   - bash
   - git
   - submodules
 seoPrimaryKeyword: git submodule automation script
 seoSecondaryKeywords:
-  - bash script for git submodules
-  - github cli submodule
+  - bash script for git
+  - github submodule management
   - automate git workflows
-  - git submodule management
+  - git submodule command
 seoOptimized: true
 topicFamily: null
 topicFamilyConfidence: null
